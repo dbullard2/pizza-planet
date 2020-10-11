@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+$black: #060606;
+
+.one {
+  background-color: $black;
+  height: 30vh;
+}
+
+.big {
+  color: #f4f1de !important;
+}
+
+.a {
+  width: 40%;
+}
+
+.image img {
+  display: block;
+}
+
+.right {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  //float: right;
+}
+
+.cone {
+  background-color: red;
+}
+
+@import '../node_modules/bulma/sass/utilities/_all.sass';
+@import '../node_modules/bulma/sass/base/_all.sass';
+@import '../node_modules/bulma/sass/elements/button.sass';
+@import '../node_modules/bulma/sass/elements/container.sass';
+@import '../node_modules/bulma/sass/elements/title.sass';
+@import '../node_modules/bulma/sass/form/_all.sass';
+@import '../node_modules/bulma/sass/components/navbar.sass';
+@import '../node_modules/bulma/sass/layout/hero.sass';
+@import '../node_modules/bulma/sass/layout/section.sass';
