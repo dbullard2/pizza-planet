@@ -1,41 +1,277 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 $black: #060606;
+$red: #e3001b;
 
-.one {
+$navbar-item-img-max-height: 100000000px;
+$navbar-background-color: $black;
+$navbar-item-color: #fff;
+$navbar-item-hover-background-color: transparent;
+$body-family: 'Roboto', sans-serif;
+$navbar-item-hover-color: $red;
+$input-background-color: transparent;
+$input-color: #fff !important;
+$footer-background-color: $black;
+$footer-color: #fff;
+
+.section-one {
   background-color: $black;
   height: 30vh;
+  color: #fff;
+  padding-top: 3vh;
+}
+
+.container-one {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .big {
-  color: #f4f1de !important;
-}
-
-.a {
-  width: 40%;
-}
-
-.image img {
-  display: block;
+  font-size: 3rem;
 }
 
 .right {
-  background-color: green;
-  width: 100px;
+  height: 100%;
+}
+
+.right img {
+  height: 130%;
+  width: 130%;
+}
+
+.smol {
+  //font-size: 1.25rem;
+  max-width: 600px;
+}
+
+.mobile-space {
+  background: $black;
+  width: 100%;
   height: 100px;
-  //float: right;
 }
 
-.cone {
-  background-color: red;
+.left .button {
+  background-color: $red !important;
+  border: $red !important;
+  color: #fff !important;
+  font-weight: bold;
+  margin-top: 1rem;
 }
 
-@import '../node_modules/bulma/sass/utilities/_all.sass';
-@import '../node_modules/bulma/sass/base/_all.sass';
-@import '../node_modules/bulma/sass/elements/button.sass';
-@import '../node_modules/bulma/sass/elements/container.sass';
-@import '../node_modules/bulma/sass/elements/title.sass';
-@import '../node_modules/bulma/sass/form/_all.sass';
-@import '../node_modules/bulma/sass/components/navbar.sass';
-@import '../node_modules/bulma/sass/layout/hero.sass';
-@import '../node_modules/bulma/sass/layout/section.sass';
+.container-two span {
+  color: $red;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+}
+
+.menu-item {
+  width: 30%;
+  margin-right: 3%;
+  //background-color: $red;
+}
+
+.menu-item:hover {
+  border: 4px solid $red;
+  border-radius: 5px;
+}
+
+.container-two button {
+  margin: 0 auto;
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.container-two button:hover,
+.container-four button:hover {
+  background-color: $red !important;
+}
+
+.section-two {
+  border-bottom: 3px dotted $red;
+  margin-bottom: 2rem;
+}
+
+.container-three h1 {
+  color: $red;
+}
+
+.review {
+  width: 30%;
+  background-color: #f9f9f9;
+  border: 3px solid #000;
+  border-radius: 5px;
+}
+
+.review-inner {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.review figure {
+  margin-bottom: 0.5vh;
+}
+
+.red {
+  color: $red;
+}
+
+.review-text {
+  //background-color: #ffd3d3;
+  border-radius: 5px;
+  margin-bottom: 1vh;
+  font-weight: bold;
+}
+
+.reviews,
+.mobile-reviews {
+  display: flex;
+}
+
+.mobile-reviews {
+  justify-content: space-between;
+}
+
+.mobile-reviews .review {
+  width: 45%;
+}
+
+.margin-right {
+  margin-right: 3%;
+}
+
+.section-three svg {
+  margin-top: 2vh;
+}
+
+.container-four img {
+  width: 100%;
+}
+
+.container-four {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1vh !important;
+}
+
+.container-four .right {
+  width: 50%;
+  margin-left: 2vw;
+}
+
+.container-four .left {
+  width: 50%;
+}
+
+.section-five {
+  padding-top: 2vh;
+  background-color: $black;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.container-five {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.circle {
+  width: 3vh;
+  height: 3vh;
+  background-color: $red;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1vw;
+}
+
+.section-five .right-m {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.centre {
+  text-align: center;
+}
+
+.centre button {
+  background-color: $red;
+  border: $red;
+  color: #fff;
+}
+
+.fin {
+  background-color: $black;
+  color: #fff;
+  padding-top: 2vh;
+  display: flex;
+}
+
+.fin .container {
+  display: flex;
+}
+
+.fin-col {
+  width: 33.33%;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.fin a {
+  color: #fff;
+}
+
+.fin a:hover {
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: $red;
+  text-decoration-thickness: 2px;
+}
+
+.fin-col i {
+  margin-right: 3%;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 1vh;
+}
+
+.social {
+  display: flex;
+}
+
+.plug {
+  background-color: $black;
+  color: #fff;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plug a:hover {
+  text-decoration: underline;
+  text-decoration-color: #93ff93;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0.5rem;
+}
+
+@import '../node_modules/bulma/bulma.sass';

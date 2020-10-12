@@ -1,2 +1,2 @@
-- restaurant ideas - suahi, pizza
 - pages - home, menu, about, 
+-todo - organise css, fill in footer
