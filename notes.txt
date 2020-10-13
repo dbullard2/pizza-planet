@@ -1,2 +1,2 @@
 - pages - home, menu, about, 
--todo - organise css, fill in footer
+-todo - organise css, fill in footer, make menu item names bold, compress images

@@ -1,17 +1,22 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+//colours
 $black: #060606;
 $red: #e3001b;
 
-$navbar-item-img-max-height: 100000000px;
+//changing bulma variables
+$body-family: 'Roboto', sans-serif;
+
 $navbar-background-color: $black;
 $navbar-item-color: #fff;
-$navbar-item-hover-background-color: transparent;
-$body-family: 'Roboto', sans-serif;
 $navbar-item-hover-color: $red;
+$navbar-item-hover-background-color: transparent;
+$navbar-item-img-max-height: 100000000px;
+
 $input-background-color: transparent;
 $input-color: #fff !important;
+
 $footer-background-color: $black;
 $footer-color: #fff;
 
@@ -52,12 +57,17 @@ $footer-color: #fff;
   height: 100px;
 }
 
-.left .button {
+.red-button {
   background-color: $red !important;
   border: $red !important;
   color: #fff !important;
   font-weight: bold;
   margin-top: 1rem;
+}
+
+.red-button:hover {
+  background-color: #fff !important;
+  color: #000 !important;
 }
 
 .container-two span {
@@ -211,12 +221,7 @@ $footer-color: #fff;
 
 .centre {
   text-align: center;
-}
-
-.centre button {
-  background-color: $red;
-  border: $red;
-  color: #fff;
+  margin-bottom: 2vh;
 }
 
 .fin {
@@ -272,6 +277,85 @@ $footer-color: #fff;
   text-decoration-color: #93ff93;
   text-decoration-thickness: 3px;
   text-underline-offset: 0.5rem;
+}
+
+.active {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: $red;
+  text-underline-offset: 0.5rem;
+}
+
+.active:hover {
+  color: #fff !important;
+}
+
+.blurb {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-us {
+  display: flex;
+}
+
+.about-us img {
+  width: 40%;
+}
+
+.one {
+  display: flex;
+}
+
+.story {
+  margin-left: 5vw;
+  width: 34%;
+}
+
+.team {
+  display: flex;
+  width: 100%;
+}
+
+.member {
+  width: 30%;
+  margin-right: 3%;
+}
+
+.mtop-5 {
+  margin-top: 5vh;
+}
+
+.contah {
+  position: relative;
+  height: 50vh;
+  z-index: 0;
+}
+
+.bottom {
+  position: absolute;
+  z-index: 1;
+  background-color: $red;
+  width: 60%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.topp {
+  position: absolute;
+  z-index: 2;
+  background-color: $black;
+  width: 45%;
+  height: 45vh;
+  top: 2.4vh;
+  left: 30vw;
+  border-radius: 30px;
+  color: #fff;
+}
+
+.topp div {
+  width: 90%;
+  margin: 0 auto;
 }
 
 @import '../node_modules/bulma/bulma.sass';

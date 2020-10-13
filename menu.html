@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>Pizza Planet</title>
+    <link rel="stylesheet" href="css/mystyles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  </head>
+  <body id="menu">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <img
+            src="https://raw.githubusercontent.com/dbullard2/pizza-planet/master/img/favicon.png"
+            width="112"
+            height="73"
+          />
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start"></div>
+
+        <div class="navbar-end">
+          <a href="index.html" class="navbar-item home"> Home </a>
+          <a href="menu.html" class="navbar-item menu-nav"> Menu </a>
+          <a href="about.html" class="navbar-item about"> About Us </a>
+          <a href="contact.html" class="navbar-item contact"> Contact </a>
+        </div>
+      </div>
+    </nav>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#060606"
+        fill-opacity="1"
+        d="M0,64L48,85.3C96,107,192,149,288,176C384,203,480,213,576,192C672,171,768,117,864,96C960,75,
+           1056,85,1152,112C1248,139,1344,181,1392,202.7L1440,224L1440,0L1392,0C1344,0,1248,0,1152,
+           0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+      ></path>
+    </svg>
+    <div>
+      <div class="menu-container container">
+        <div class="blurb">
+          <h1 class="is-size-1 has-text-centered has-text-weight-bold title">
+            Our <span style="color: #e3001b">Menu</span>
+          </h1>
+          <p class="subtitle">
+            We pride ourselves in offering hand-tossed pizzas made with the freshest
+            ingredients including daily, made-from-scratch dough and sauce.
+          </p>
+        </div>
+        <br />
+        <br />
+        <h2 class="is-size-2 has-text-centered has-text-weight-bold">Pizza</h2>
+        <br />
+        <br />
+        <div class="menu" id="pizza">
+          <div class="menu-item">
+            <img src="img/pepperoni.webp" alt="" class="image" />
+            <p class="has-text-centered is-size-5 has-text-weight-bold">Pepperoni Pizza</p>
+            <p class="has-text-centered is-hidden-mobile">
+              Our Pepperoni Pizza starts with classic marinara sauce and is topped with
+              pepperoni and 100% real mozzarella cheese.
+            </p>
+          </div>
+          <div class="menu-item">
+            <img src="img/supreme.webp" alt="" class="image" />
+            <p class="has-text-centered is-size-5 has-text-weight-bold">Supreme Pizza</p>
+            <p class="has-text-centered is-hidden-mobile">
+              Our Supreme Pizza starts with classic marinara and is piled with pepperoni, mild
+              sausage, beef, green peppers, onions, mushrooms and black olives.
+            </p>
+          </div>
+          <div class="menu-item">
+            <img src="img/breakfast.webp" alt="" class="image" />
+            <p class="has-text-centered is-size-5 has-text-weight-bold">
+              Sausage Breakfast Pizza
+            </p>
+            <p class="has-text-centered is-hidden-mobile">
+              Our Sausage Breakfast Pizza starts with cheese sauce or sausage gravy and topped
+              with scrambled eggs, breakfast sausage, and mozzarella and cheddar cheese.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <h2 class="is-size-2 has-text-centered has-text-weight-bold">Wings</h2>
+      <br /><br />
+      <div class="menu" id="wings">
+        <div class="menu-item">
+          <img src="img/buffalo.webp" alt="" class="image" />
+          <p class="has-text-centered is-size-5 has-text-weight-bold">Buffalo Wings</p>
+          <p class="has-text-centered is-hidden-mobile">
+            Craving something bold and spicy? Our buffalo wings are always a favorite. Served
+            with ranch dressing - what could be better?
+          </p>
+        </div>
+        <div class="menu-item">
+          <img src="img/boneless.webp" alt="" class="image" />
+          <p class="has-text-centered is-size-5 has-text-weight-bold">
+            Boneless Buffalo Wings
+          </p>
+          <p class="has-text-centered is-hidden-mobile">
+            Craving something bold and spicy? Our boneless buffalo wings are always a favorite.
+            Served with ranch dressing - what could be better?
+          </p>
+        </div>
+        <div class="menu-item">
+          <img src="img/tenders.webp" alt="" class="image" />
+          <p class="has-text-centered is-size-5 has-text-weight-bold">Chicken Tenders</p>
+          <p class="has-text-centered is-hidden-mobile">
+            Crispy, white meat chicken tenders ready for dipping in creamy ranch, BBQ or honey
+            mustard.
+          </p>
+        </div>
+      </div>
+      <br /><br />
+      <h2 class="is-size-2 has-text-centered has-text-weight-bold">Salads</h2>
+      <br /><br />
+      <div class="menu" id="salads">
+        <div class="menu-item">
+          <img src="img/build.png" alt="" class="image" />
+          <p class="has-text-centered is-size-5 has-text-weight-bold">Build Your Own Salad</p>
+          <p class="has-text-centered is-hidden-mobile">
+            Salad made just the way you like it! Start with fresh, crisp lettuce and customize
+            with your favorite veggies, meat and cheese.
+          </p>
+        </div>
+        <div class="menu-item">
+          <img src="img/veggie.webp" alt="" class="image" />
+          <p class="has-text-centered is-size-5 has-text-weight-bold">Veggie Salad</p>
+          <p class="has-text-centered is-hidden-mobile">
+            Salad made just the way you like it! Start with fresh, crisp lettuce and customize
+            with your favorite veggies and cheese.
+          </p>
+        </div>
+      </div>
+      <br /><br />
+      <h2 class="is-size-2 has-text-centered has-text-weight-bold">Deserts</h2>
+      <br /><br />
+      <div class="menu" style="margin-bottom: 2vh" id="deserts">
+        <div class="menu-item">
+          <img src="img/chunk.webp" alt="" class="image" />
+          <p class="has-text-centered is-size-5 has-text-weight-bold">
+            Chocolate Chunk Cookie
+          </p>
+          <p class="has-text-centered is-hidden-mobile">
+            You can't go wrong with a chocolate chunk cookie! Grab one for dessert today. If
+            ordering more than 2 Dozen cookies, please order 24 hours in advance.
+          </p>
+        </div>
+        <div class="menu-item">
+          <img src="img/sugar.webp" alt="" class="image" />
+          <p class="has-text-centered is-size-5 has-text-weight-bold">Iced Sugar Cookie</p>
+          <p class="has-text-centered is-hidden-mobile">
+            A classic, perfectly simple sugar cookie baked to perfection & topped with
+            delicious frosting! If ordering more than 2 dozen cookies, please order 24 hours in
+            advance.
+          </p>
+        </div>
+        <div class="menu-item">
+          <img src="img/bites.webp" alt="" class="image" />
+          <p class="has-text-centered is-size-5 has-text-weight-bold">Brownie Bites</p>
+          <p class="has-text-centered is-hidden-mobile">
+            Bite-sized chocolate brownies coated in a rich chocolate icing. This treat pairs
+            perfectly with a slice of pizza.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="fin">
+      <div class="container">
+        <div class="fin-col">
+          <p class="fin-head is-size-5 has-text-weight-bold">Navigation</p>
+          <a href="index.html">Home</a>
+          <br />
+          <a href="menu.html">Menu</a>
+          <br />
+          <a href="about.html">About Us</a>
+          <br />
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="fin-col">
+          <p class="fin-head is-size-5 has-text-weight-bold">Menu</p>
+          <a href="menu.html#pizza">Pizza</a>
+          <br />
+          <a href="menu.html#wings">Wings</a>
+          <br />
+          <a href="menu.html#salads">Salads</a>
+          <br />
+          <a href="menu.html#deserts">Deserts</a>
+        </div>
+        <div class="fin-col">
+          <p class="fin-head is-size-5 has-text-weight-bold">Contact</p>
+          <p>Phone - 415-216-9893</p>
+          <p>Email - contact@pizzaplanet.com</p>
+          <div class="social">
+            <i class="fab fa-twitter fa-lg"></i>
+            <i class="fab fa-facebook-f fa-lg"></i>
+            <i class="fab fa-instagram fa-lg"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#060606"
+        fill-opacity="1"
+        d="M0,96L48,101.3C96,107,192,117,288,149.3C384,181,480,235,576,229.3C672,224,768,160,864,
+           138.7C960,117,1056,139,1152,149.3C1248,160,1344,160,1392,160L1440,160L1440,0L1392,0C1344,0,
+           1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+      ></path>
+    </svg>
+    <div class="plug">
+      <p class="is-size-5">Designed & Developed by&nbsp;</p>
+      <a href="https://www.creanost.com/" class="is-size-5"
+        ><span style="color: #87f2ff">crea </span><span style="color: #ff87db">nost</span></a
+      >
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
